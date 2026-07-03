@@ -1,0 +1,464 @@
+<!DOCTYPE html><html dir="rtl" lang="ar"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>الأستاذة نادين السيد | شعلة العلم</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&amp;family=Hanken+Grotesk:wght@400;600;700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#2563eb",
+                        "secondary": "#10B981",
+                        "on-background": "#191c1d",
+                        "surface": "#f8f9fa",
+                        "surface-pure": "#FFFFFF",
+                        "outline-variant": "#c3c6d7",
+                        "on-surface-variant": "#434655",
+                        "primary-container": "#2563eb",
+                        "on-primary": "#ffffff",
+                    },
+                    spacing: {
+                        "section-gap-md": "80px",
+                        "section-gap-lg": "160px",
+                        "margin-mobile": "20px",
+                        "gutter": "24px",
+                        "container-max": "1280px",
+                        "stack-sm": "12px",
+                        "stack-md": "24px",
+                    },
+                    fontFamily: {
+                        "body": ["Cairo", "sans-serif"],
+                        "headline": ["Cairo", "sans-serif"],
+                    },
+                    borderRadius: {
+                        "card": "24px",
+                        "button": "20px"
+                    },
+                    boxShadow: {
+                        'premium': '0 4px 6px -1px rgba(0, 0, 0, 0.02), 0 2px 4px -1px rgba(0, 0, 0, 0.02), 0 10px 15px -3px rgba(0, 0, 0, 0.03)',
+                        'hover': '0 20px 25px -5px rgba(0, 0, 0, 0.05), 0 10px 10px -5px rgba(0, 0, 0, 0.02)'
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        body { font-family: 'Cairo', sans-serif; scroll-behavior: smooth; }
+        .glass { background: rgba(255, 255, 255, 0.75); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border-bottom: 1px solid rgba(241, 245, 249, 0.5); }
+        .hero-gradient { background: radial-gradient(circle at top right, rgba(37, 99, 235, 0.05), transparent), radial-gradient(circle at bottom left, rgba(16, 185, 129, 0.05), transparent); }
+        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; vertical-align: middle; }
+        .card-transition { transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); }
+        .card-transition:hover { transform: translateY(-8px); }
+        .masonry { column-count: 1; column-gap: 1.5rem; }
+        @media (min-width: 768px) { .masonry { column-count: 2; } }
+        @media (min-width: 1024px) { .masonry { column-count: 3; } }
+        .masonry-item { break-inside: avoid; margin-bottom: 1.5rem; }
+        
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #f1f5f9; }
+        ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 10px; }
+        ::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+    </style>
+</head>
+<body class="bg-surface text-on-background selection:bg-primary/20">
+<!-- Navbar -->
+<nav class="fixed top-0 left-0 right-0 z-[100] glass h-20 transition-all duration-300">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-gutter h-full flex flex-row-reverse justify-between items-center">
+<div class="flex items-center gap-2">
+<span class="text-primary font-extrabold text-2xl tracking-tight">الأستاذة نادين السيد</span>
+<div class="w-10 h-10 bg-primary/10 rounded-xl flex items-center justify-center text-primary">
+<span class="material-symbols-outlined">science</span>
+</div>
+</div>
+<!-- Desktop Nav -->
+<div class="hidden lg:flex flex-row-reverse items-center gap-8">
+<a class="text-primary font-bold border-b-2 border-primary pb-1" href="#">الرئيسية</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors" href="#about">نبذة</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors" href="#levels">المراحل الدراسية</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors" href="#awards">التكريمات</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors" href="#gallery">المعرض</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors" href="#faq">الأسئلة الشائعة</a>
+</div>
+<div class="flex items-center gap-4">
+<a class="hidden md:block bg-primary text-on-primary px-6 py-3 rounded-button font-bold hover:scale-95 transition-transform" href="#contact">
+                    احجز حصتك الآن
+                </a>
+<button class="lg:hidden text-primary p-2">
+<span class="material-symbols-outlined text-3xl">menu</span>
+</button>
+</div>
+</div>
+</nav>
+<!-- Hero Section -->
+<section class="pt-32 pb-20 md:pt-48 md:pb-section-gap-md hero-gradient relative overflow-hidden">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-gutter flex flex-col md:flex-row-reverse items-center gap-16">
+<!-- Text Content -->
+<div class="flex-1 text-center md:text-right">
+<div class="inline-flex items-center gap-2 px-4 py-2 bg-secondary/10 text-secondary rounded-full mb-6">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">stars</span>
+<span class="text-sm font-bold">بوابتك للتفوق في مادة العلوم</span>
+</div>
+<h1 class="text-4xl md:text-6xl font-extrabold text-on-background mb-6 leading-tight">
+                    العلوم بطريقة <span class="text-primary italic">بسيطة...</span> والنجاح يبدأ من هنا.
+                </h1>
+<p class="text-lg md:text-xl text-on-surface-variant leading-relaxed max-w-2xl mb-10">
+                    نحول تعقيدات العلوم إلى مفاهيم سهلة وممتعة. انضم إلينا اليوم لتكتشف شغفك الحقيقي وتضمن أعلى الدرجات في مسيرتك الدراسية.
+                </p>
+<div class="flex flex-col sm:flex-row-reverse items-center gap-4 justify-center md:justify-start">
+<button class="w-full sm:w-auto bg-primary text-on-primary px-8 py-4 rounded-button font-bold text-lg hover:shadow-lg transition-all">ابدأ رحلة التعلم</button>
+<button class="w-full sm:w-auto bg-surface-pure border border-outline-variant text-on-background px-8 py-4 rounded-button font-bold text-lg hover:bg-surface transition-all">اعرف المزيد</button>
+</div>
+</div>
+<!-- Hero Image -->
+<div class="flex-1 relative group">
+<div class="absolute -inset-4 bg-gradient-to-tr from-primary/10 to-secondary/10 rounded-[3rem] blur-2xl group-hover:blur-3xl transition-all duration-700"></div>
+<div class="relative rounded-[2.5rem] overflow-hidden border-4 border-surface-pure shadow-premium aspect-[4/5]">
+<img alt="الأستاذة نادين السيد" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCwGx3cIv5jwg1SRLFmp_wSx72DzFHht5_Xy87MoDvC8pP0EVnhBNZLBwa2tzB85SVkFl3MvfL5xTK78TWnhkhlQler3Y-kPNzri1YY3pCgJ6BG_Eq8n1t-mk2fsCPxXOp4LpYSFh11nznohBVnkJTed9B4YTyBnjcVPBUl8mQQf4z4Ik1bYqYqvwByrff9wKm3BPmulS69dTwKriHBODF0WH_IWY0ZdDmxCcGAcRPPnOz3mhpK9T9vGMrKe2dBf83dxGs">
+</div>
+<!-- Floating Cards -->
+<div class="absolute -right-8 top-10 bg-surface-pure p-4 rounded-2xl shadow-premium animate-bounce" style="animation-duration: 3s;">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined">group</span>
+</div>
+<div>
+<p class="text-xs text-on-surface-variant font-bold">الطلاب الملتحقون</p>
+<p class="text-xl font-extrabold text-primary">+٥٠٠ طالب</p>
+</div>
+</div>
+</div>
+<div class="absolute -left-8 bottom-20 bg-surface-pure p-4 rounded-2xl shadow-premium animate-bounce" style="animation-duration: 4s;">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-secondary/10 flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined">verified</span>
+</div>
+<div>
+<p class="text-xs text-on-surface-variant font-bold">نسبة النجاح</p>
+<p class="text-xl font-extrabold text-secondary">٩٥٪</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Trust Stats Bar -->
+<div class="bg-surface-pure border-y border-outline-variant/30 py-10 overflow-hidden">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-gutter flex flex-wrap justify-center md:justify-between gap-10 items-center">
+<div class="flex flex-col items-center gap-1 text-center">
+<span class="text-3xl font-extrabold text-on-background">+١٠ سنوات</span>
+<span class="text-sm text-on-surface-variant font-bold uppercase tracking-widest">خبرة تعليمية</span>
+</div>
+<div class="hidden md:block w-px h-12 bg-outline-variant"></div>
+<div class="flex flex-col items-center gap-1 text-center">
+<span class="text-3xl font-extrabold text-on-background">+٢٠٠٠</span>
+<span class="text-sm text-on-surface-variant font-bold uppercase tracking-widest">حصة تفاعلية</span>
+</div>
+<div class="hidden md:block w-px h-12 bg-outline-variant"></div>
+<div class="flex flex-col items-center gap-1 text-center">
+<span class="text-3xl font-extrabold text-on-background">١٠٠٪</span>
+<span class="text-sm text-on-surface-variant font-bold uppercase tracking-widest">متابعة دورية</span>
+</div>
+<div class="hidden md:block w-px h-12 bg-outline-variant"></div>
+<div class="flex flex-col items-center gap-1 text-center">
+<span class="text-3xl font-extrabold text-on-background">+٥٠</span>
+<span class="text-sm text-on-surface-variant font-bold uppercase tracking-widest">تكريم للمتفوقين</span>
+</div>
+</div>
+</div>
+<!-- Why Choose Us -->
+<section class="py-section-gap-md bg-surface" id="features">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-gutter">
+<div class="text-center mb-16">
+<h2 class="text-3xl md:text-5xl font-extrabold mb-4">لماذا تختار "شعلة العلم"؟</h2>
+<p class="text-on-surface-variant max-w-xl mx-auto">نحن نؤمن أن التعليم ليس مجرد تلقين، بل هو رحلة اكتشاف وتنمية مهارات.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<!-- Feature 1 -->
+<div class="bg-surface-pure p-8 rounded-card border border-outline-variant/30 card-transition shadow-premium">
+<div class="w-14 h-14 bg-primary/10 rounded-2xl flex items-center justify-center text-primary mb-6">
+<span class="material-symbols-outlined text-3xl">psychology</span>
+</div>
+<h3 class="text-xl font-bold mb-3">شرح مبسط وذكي</h3>
+<p class="text-on-surface-variant leading-relaxed text-sm">نستخدم أحدث الأساليب العلمية لتبسيط المعلومة وجعلها سهلة الفهم للجميع.</p>
+</div>
+<!-- Feature 2 -->
+<div class="bg-surface-pure p-8 rounded-card border border-outline-variant/30 card-transition shadow-premium">
+<div class="w-14 h-14 bg-secondary/10 rounded-2xl flex items-center justify-center text-secondary mb-6">
+<span class="material-symbols-outlined text-3xl">analytics</span>
+</div>
+<h3 class="text-xl font-bold mb-3">متابعة دورية دقيقة</h3>
+<p class="text-on-surface-variant leading-relaxed text-sm">تقارير دورية لأولياء الأمور واختبارات مستمرة لتقييم مستوى الطالب.</p>
+</div>
+<!-- Feature 3 -->
+<div class="bg-surface-pure p-8 rounded-card border border-outline-variant/30 card-transition shadow-premium">
+<div class="w-14 h-14 bg-purple-100 rounded-2xl flex items-center justify-center text-purple-600 mb-6">
+<span class="material-symbols-outlined text-3xl">smart_display</span>
+</div>
+<h3 class="text-xl font-bold mb-3">محتوى مرئي تفاعلي</h3>
+<p class="text-on-surface-variant leading-relaxed text-sm">حصصنا ليست مجرد كلام، بل رحلة بصرية من الفيديوهات والتجارب العلمية.</p>
+</div>
+<!-- Feature 4 -->
+<div class="bg-surface-pure p-8 rounded-card border border-outline-variant/30 card-transition shadow-premium">
+<div class="w-14 h-14 bg-orange-100 rounded-2xl flex items-center justify-center text-orange-600 mb-6">
+<span class="material-symbols-outlined text-3xl">forum</span>
+</div>
+<h3 class="text-xl font-bold mb-3">تواصل مباشر ٢٤/٧</h3>
+<p class="text-on-surface-variant leading-relaxed text-sm">نحن دائماً هنا للرد على أسئلة الطلاب في أي وقت خارج أوقات الدراسة.</p>
+</div>
+<!-- Feature 5 -->
+<div class="bg-surface-pure p-8 rounded-card border border-outline-variant/30 card-transition shadow-premium">
+<div class="w-14 h-14 bg-emerald-100 rounded-2xl flex items-center justify-center text-emerald-600 mb-6">
+<span class="material-symbols-outlined text-3xl">emoji_events</span>
+</div>
+<h3 class="text-xl font-bold mb-3">تحفيز وتكريم مستمر</h3>
+<p class="text-on-surface-variant leading-relaxed text-sm">تكريم المتفوقين دائماً هو جزء أساسي من نظامنا لرفع الروح المعنوية.</p>
+</div>
+<!-- Feature 6 -->
+<div class="bg-surface-pure p-8 rounded-card border border-outline-variant/30 card-transition shadow-premium">
+<div class="w-14 h-14 bg-blue-100 rounded-2xl flex items-center justify-center text-blue-600 mb-6">
+<span class="material-symbols-outlined text-3xl">checklist</span>
+</div>
+<h3 class="text-xl font-bold mb-3">مذكرات خاصة وحصرية</h3>
+<p class="text-on-surface-variant leading-relaxed text-sm">يحصل الطالب على ملخصات ذكية تغطي المنهج بالكامل لسهولة المراجعة.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Awards Slider Section -->
+<section class="py-section-gap-md bg-surface-pure relative overflow-hidden" id="awards">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-gutter">
+<div class="flex flex-col md:flex-row-reverse justify-between items-end mb-16 gap-6">
+<div class="text-right">
+<h2 class="text-3xl md:text-5xl font-extrabold mb-4">لحظات التكريم والنجاح</h2>
+<p class="text-on-surface-variant">فخورون بطلابنا المتفوقين الذين حققوا أعلى الدرجات تحت إشرافنا.</p>
+</div>
+<div class="flex gap-4">
+<button class="w-12 h-12 rounded-full border border-outline-variant flex items-center justify-center hover:bg-primary hover:text-white transition-all">
+<span class="material-symbols-outlined">arrow_forward</span>
+</button>
+<button class="w-12 h-12 rounded-full border border-outline-variant flex items-center justify-center hover:bg-primary hover:text-white transition-all">
+<span class="material-symbols-outlined">arrow_back</span>
+</button>
+</div>
+</div>
+<div class="flex gap-6 overflow-x-auto pb-8 snap-x snap-mandatory no-scrollbar scroll-smooth">
+<div class="min-w-[300px] md:min-w-[400px] snap-center">
+<div class="rounded-card overflow-hidden h-[500px] shadow-premium relative group">
+<img alt="تكريم طالب" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCesUAu3ywCANwA9h3y-W3eW5Wl6pxw2jDA9zq_VGHV_Uzbdhkhyd6SghGz8p7KO-YHxesMreGRufMDLNrFC-xcJsAF-ASWK0FWn4CQiyBRvkZ0vb7PYObX9H9JO6hk2nabK-2LuLFkPKvpiI4Oxoy_w9tbzKCF1cn-ytoQjyQM6ny26-ueoIfPBu28Eq-jvaKpJCGI_jdocJebHmuTWQAz4UgyNVTuUp-z40GX85ikwidDqpELreRS1nJKv2NRASMDd-Y">
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex flex-col justify-end p-8">
+<p class="text-white/80 font-bold text-sm mb-2">تكريم المتفوقين</p>
+<h4 class="text-white text-xl font-bold">تسليم درع التميز العلمي</h4>
+</div>
+</div>
+</div>
+<div class="min-w-[300px] md:min-w-[400px] snap-center">
+<div class="rounded-card overflow-hidden h-[500px] shadow-premium relative group">
+<img alt="تكريم جماعي" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDaYNH9F5CIanFb2tskwDVYDHY5lXNbIZ5gn3UUcolv6NDF18hmJi2-h0YmABZpmLy8RkwXd6WboYDyS5HbcK5VsZv7RJA4xhwuM96y7uqR0s1t1QjsM8rOpiBLHt7n7ArI6w_LixeB8SAnsSBO83UTQgseb5TDD7g5OQM4KMhpa7103OvXRR0uF4bmB71vi16AyOYEGQipS2kQMfEEOMB2wlF6IzEycVcypAMgFPUr-xRb0Z66h0Jb17pH224IgzEKiGM">
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex flex-col justify-end p-8">
+<p class="text-white/80 font-bold text-sm mb-2">احتفالات النجاح</p>
+<h4 class="text-white text-xl font-bold">يوم مفتوح لتكريم أوائل الدفعة</h4>
+</div>
+</div>
+</div>
+<div class="min-w-[300px] md:min-w-[400px] snap-center">
+<div class="rounded-card overflow-hidden h-[500px] shadow-premium relative group">
+<img alt="تكريم خاص" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAp9E5eN-ZDgTmVMZfXHKldG7EyU27NSqHyClsaQtYpbzNV692p3aYaMCvrf1-GJqfFD51M86-snjeCp4SVNhY65fQQiF3lHXXfVge4IdmxZfQGH7QUWts8KDCEBbA1FC0r_M5VKLXXg8kuycA5M1xZ--Txg-FerRZRnhNICCwFrsHZqWxef_bWwRbJ429OMAGHuRzcnCextKa5q6uwqj4yTnG2OtVurJGkdBaXFOUDIW7EhBq0EeLv10n0dPljy-lzVZ0">
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex flex-col justify-end p-8">
+<p class="text-white/80 font-bold text-sm mb-2">نماذج مشرفة</p>
+<h4 class="text-white text-xl font-bold">فرحة الإنجاز والحصول على الدرجات النهائية</h4>
+</div>
+</div>
+</div>
+<div class="min-w-[300px] md:min-w-[400px] snap-center">
+<div class="rounded-card overflow-hidden h-[500px] shadow-premium relative group">
+<img alt="تكريم الأستاذة" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD3rsADFOUb2ka6xItw0SXO2s4xc0_x5ini6Mbs9CoQcv_KjuKiT3RU6LVE5IsidNLKLvDQOwOiG8i5TFfKa13UBNSXfe_1ww9hBC-sm_wegmfRDIRrhcUtKGz4WfA04iREIy-EnV_c-Mj7WwBiNXmOrOSGtZLXiRCJgwn6hZ-U2uGVxVxSPxzQP_cxnsEJGVxLWndjfvRb8XWkza0s2li2pDZ5GGYY9Uqhg8vzjz7jl5GBguQ9xK5mO_E4m7dBpnBMk7I">
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex flex-col justify-end p-8">
+<p class="text-white/80 font-bold text-sm mb-2">العلاقة الأسرية</p>
+<h4 class="text-white text-xl font-bold">لحظات لا تنسى مع طلابنا الأعزاء</h4>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Student Gallery Masonry -->
+<section class="py-section-gap-md bg-surface" id="gallery">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-gutter">
+<div class="text-center mb-16">
+<h2 class="text-3xl md:text-5xl font-extrabold mb-4">معرض ذكرياتنا</h2>
+<p class="text-on-surface-variant max-w-xl mx-auto">لمحات من حصصنا التفاعلية واحتفالاتنا المشتركة داخل الفصول الدراسية.</p>
+</div>
+<div class="masonry">
+<div class="masonry-item">
+<div class="rounded-2xl overflow-hidden shadow-sm hover:shadow-hover transition-all">
+<img alt="صورة من حصة" class="w-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDFGr0OHDuaVQiIAc0PYi0VlRFLkJARzBreb6I_2LpqtfQ0x_eSWg2uKDCYLnUWFOdgPG5k63rXyrYVaWjPdWs50N2cCTmy8ulv-NEx7fgAPDKCo1G8_F5TtUtX4UP95-4Jxu3iUrEdASRn3ZAwYAC-8pbCi8g3ESX_92dejGGGvg_x7xMn1NEVGeFMHAGl-sJCw4TyI2g2Cl9fqnJFeBgZZ6wQ8ognTtYcjWvGCe7vbOwe4WQqH9h5bgQseIJlzTz6wMk">
+</div>
+</div>
+<div class="masonry-item">
+<div class="rounded-2xl overflow-hidden shadow-sm hover:shadow-hover transition-all">
+<img alt="تفاعل طلاب" class="w-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBcD7T8Uqqfhy7pwuxitS8qV7Kx_1eEk0tyAxpV4LLRAYlj3i0oZxY6KF31MzIRlS4ybpY-m7DEM6Kp4DhUfF3QopWWKdXs3LtsRBC8DcejaykYGiopfkMBbMqIEFwwC4SQq2MQVjTPVQOiUjpU2JhsynK4dtnSMGw0bqvyfCjX9vdGJIDn1426cKk91U8eagmMydkJNwjSZ5JUTSKO6ws4pprDWWPlAq_MjczNSnH26oIzCsk2FKepEiw_O4rLoXfvXY4">
+</div>
+</div>
+<div class="masonry-item">
+<div class="rounded-2xl overflow-hidden shadow-sm hover:shadow-hover transition-all">
+<img alt="لحظة نجاح" class="w-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCC9D4d6koyu449iiCAskYHpDeQWsPrNvRHXjx7Rsjz42BqCxPuBL14w5z7t6Jr_OCRm3qj0j3bEF2UVEDzLQW4Z8cVatvPRAvSrVlx5lb1wT4bgF6sevUsnBxrVtXCX4xQb44ok68k6yA1WLqrsycyS4iHxV3rEOGfpT3i1vx0k8_8XvL8A8bT4SjHtITVHa-04gR0BfPv5l2gbFxiLaepdjZ3oAqDSvG9QCQnPjlwKzcOsd4__3khVUXUezaSzSGmv5I">
+</div>
+</div>
+<div class="masonry-item">
+<div class="rounded-2xl overflow-hidden shadow-sm hover:shadow-hover transition-all">
+<img alt="فرحة الطلاب" class="w-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB6akaFnRBNm5mX1fDtz8iN1Qz5DoKTFP3CH-c2sVueIJtPjVX7dM7mn74IYVr_VolVVemfU6PalvCck8DUSrPg3vCOm09bCDbBICL3USQpyaVKTLQvj2ouSyzSuE8tXhMXG65Hmr9vuBceV-i-FWD6wCS4sQ-31dBJPyLX-aUf7rf4dftAqDchVkTlC5mLv-smHwMubzkCfrycscLdFRDsSE6X4wqdHvm-34o0SNVXyyem3gDd22idl4o0Oc3tirQr3y0">
+</div>
+</div>
+<div class="masonry-item">
+<div class="rounded-2xl overflow-hidden shadow-sm hover:shadow-hover transition-all">
+<img alt="سيلفي النجاح" class="w-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBty-7vNvVYKFj8mdC4Zf7FxgSYHwgetZkB8_S1-2r5l5RUvT9SG8LgPUtVKsOAcES6C2yOuM4bWZeD5Hm_DPvxAI3jutLcf2BXKhRbWbNt8KKI5KBND5W1qLy41qInXtjZfX-s-TuMEEw94ACXyGw76NSB69kL16AYGVfGmfrgZwK0lomnJGzygwIye7ihv3SdsjFhRC1K4oszDceCq-B8YYCrVhSel44pSTuRy0ab-vUG2c7X5c7U9_OIkRnMQICmFAM">
+</div>
+</div>
+<div class="masonry-item">
+<div class="rounded-2xl overflow-hidden shadow-sm hover:shadow-hover transition-all">
+<img alt="توزيع الجوائز" class="w-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuASv_Mvl7qJOsUI_1fRMwJfzEeG6w8J1vPEKkt_z0X2-0UaHq5Y19u8A8P_S1gKnfYEiNL8rbyRAUKXqctt-9qXuXKHZYq4AtlFUz0RbThkvgsQbDlhlHHjIvAjDdsFFeo0n_U4aY_MUf-GorilZKhTcMf6YtA-AUFuEfX4fNM_jK1vsI_vMiAtWclVD-QkYH2rynuP8iCLWTxUaT9_6ypf87M8P2iScv_c7yQM8uOFAUIJb3goSHiTjkHejYysD8Zh4co">
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- FAQ Accordion -->
+<section class="py-section-gap-md bg-surface-pure" id="faq">
+<div class="max-w-3xl mx-auto px-margin-mobile md:px-gutter">
+<div class="text-center mb-16">
+<h2 class="text-3xl md:text-5xl font-extrabold mb-4">الأسئلة الشائعة</h2>
+<p class="text-on-surface-variant">كل ما تود معرفته عن نظامنا الدراسي والاشتراك.</p>
+</div>
+<div class="space-y-4">
+<details class="group bg-surface rounded-2xl p-6 border border-outline-variant/30 open:ring-2 open:ring-primary/20 transition-all">
+<summary class="flex justify-between items-center cursor-pointer list-none">
+<span class="text-lg font-bold">كيف يمكنني الحجز في مجموعات التفوق؟</span>
+<span class="material-symbols-outlined transition-transform group-open:rotate-180">expand_more</span>
+</summary>
+<div class="mt-4 text-on-surface-variant leading-relaxed">
+                        يمكنك الحجز عبر الواتساب مباشرة من خلال الضغط على زر "احجز الآن" في أعلى الصفحة، أو زيارة مقرنا التعليمي للتسجيل الورقي.
+                    </div>
+</details>
+<details class="group bg-surface rounded-2xl p-6 border border-outline-variant/30 open:ring-2 open:ring-primary/20 transition-all">
+<summary class="flex justify-between items-center cursor-pointer list-none">
+<span class="text-lg font-bold">ما هي المراحل الدراسية المتاحة؟</span>
+<span class="material-symbols-outlined transition-transform group-open:rotate-180">expand_more</span>
+</summary>
+<div class="mt-4 text-on-surface-variant leading-relaxed">
+                        نقدم دروس العلوم (Science) للمرحلة الابتدائية والإعدادية باللغتين العربية والإنجليزية.
+                    </div>
+</details>
+<details class="group bg-surface rounded-2xl p-6 border border-outline-variant/30 open:ring-2 open:ring-primary/20 transition-all">
+<summary class="flex justify-between items-center cursor-pointer list-none">
+<span class="text-lg font-bold">هل توجد حصص مراجعة نهائية؟</span>
+<span class="material-symbols-outlined transition-transform group-open:rotate-180">expand_more</span>
+</summary>
+<div class="mt-4 text-on-surface-variant leading-relaxed">
+                        نعم، نوفر أقوى سلسلة مراجعات نهائية مكثفة قبل الامتحانات تشمل حل كافة نماذج الوزارة والامتحانات السابقة مع ضمان التوقعات المرئية.
+                    </div>
+</details>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-on-background text-white pt-20 pb-10" id="contact">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-gutter">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+<!-- Branding -->
+<div class="col-span-1 lg:col-span-1">
+<div class="flex items-center gap-2 mb-6">
+<div class="w-10 h-10 bg-primary rounded-xl flex items-center justify-center">
+<span class="material-symbols-outlined text-white">science</span>
+</div>
+<span class="text-2xl font-extrabold tracking-tight">نادين السيد</span>
+</div>
+<p class="text-gray-400 leading-relaxed mb-6">
+                        المركز الأول في تبسيط العلوم وتنمية شغف الطلاب بالاكتشاف والبحث العلمي.
+                    </p>
+<div class="flex gap-4">
+<a class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-primary transition-all" href="#">
+<span class="material-symbols-outlined text-sm">face_nod</span>
+</a>
+<a class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-primary transition-all" href="#">
+<span class="material-symbols-outlined text-sm">youtube_activity</span>
+</a>
+<a class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-primary transition-all" href="#">
+<span class="material-symbols-outlined text-sm">chat</span>
+</a>
+</div>
+</div>
+<!-- Fast Links -->
+<div>
+<h4 class="text-lg font-bold mb-6">روابط سريعة</h4>
+<ul class="space-y-4 text-gray-400">
+<li class=""><a class="hover:text-primary transition-colors" href="#">الرئيسية</a></li>
+<li class=""><a class="hover:text-primary transition-colors" href="#about">عن المعلمة</a></li>
+<li class=""><a class="hover:text-primary transition-colors" href="#levels">المراحل الدراسية</a></li>
+<li class=""><a class="hover:text-primary transition-colors" href="#gallery">معرض الصور</a></li>
+</ul>
+</div>
+<!-- Contact Details -->
+<div>
+<h4 class="text-lg font-bold mb-6">تواصل معنا</h4>
+<ul class="space-y-4 text-gray-400">
+<li class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary">phone_iphone</span>
+<span class="">+٢٠ ١٢٣ ٤٥٦ ٧٨٩</span>
+</li>
+<li class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary">mail</span>
+<span class="">contact@nadine-science.com</span>
+</li>
+<li class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary">location_on</span>
+<span class="">الإسكندرية، جمهورية مصر العربية</span>
+</li>
+</ul>
+</div>
+<!-- Location Map Placeholder -->
+<div class="rounded-2xl overflow-hidden bg-white/5 h-48 relative border border-white/10 group">
+<div class="absolute inset-0 grayscale group-hover:grayscale-0 transition-all duration-700">
+<img class="w-full h-full object-cover" data-alt="A clean, minimalist 3D map representation showing a location pin in a modern city center. The style is inspired by premium tech apps with a soft blue and emerald color palette, subtle lighting, and elegant UI accents." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB5feqlsOrl-EgzJbmFinf7gMXhZKON7UNODb04MRx-yq8dlRcxpN3QiNJoudSoDjT3yHnJ03hFMohl39-_FtwQ-kAFw7WkNPbljRWGxY-vXR2Qt0oc26vQZAcF5Jyn8sl4A2aUHqZp1tVeiNgdXZ0j38FCmAgc6ILF9C1Fqdonx8xlOJwEBhEUywXPr4ux4fglBMQkdHajwDAoadv2VTHcBdDGzgipvEgrKwx5mEY224sm5Z62TBhTcQ">
+</div>
+<div class="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+<span class="bg-primary px-4 py-2 rounded-full text-xs font-bold">افتح الخريطة</span>
+</div>
+</div>
+</div>
+<div class="pt-10 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6 text-sm text-gray-500">
+<p class="">© ٢٠٢٤ الأستاذة نادين السيد. جميع الحقوق محفوظة.</p>
+<div class="flex gap-8">
+<a class="hover:text-white" href="#">سياسة الخصوصية</a>
+<a class="hover:text-white" href="#">شروط الاستخدام</a>
+</div>
+</div>
+</div>
+</footer>
+<script>
+        // Navbar Scroll Effect
+        window.addEventListener('scroll', () => {
+            const nav = document.querySelector('nav');
+            if (window.scrollY > 50) {
+                nav.classList.add('shadow-premium', 'h-16');
+                nav.classList.remove('h-20');
+            } else {
+                nav.classList.remove('shadow-premium', 'h-16');
+                nav.classList.add('h-20');
+            }
+        });
+
+        // Simple Mobile Menu Toggle
+        const menuBtn = document.querySelector('button.lg\\:hidden');
+        menuBtn.addEventListener('click', () => {
+            alert('القائمة قيد التطوير - استمتع بالتصفح!');
+        });
+    </script>
+
+
+</body></html>
