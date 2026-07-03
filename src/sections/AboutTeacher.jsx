@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { sectionVariants, sectionItemVariants } from '../utils/animations';
+import teacherImage from '../assets/heroImg/474619063_122197517612184467_8762378716178084788_n.jpg';
 
 export default function AboutTeacher() {
   return (
@@ -22,7 +23,7 @@ export default function AboutTeacher() {
             <img
               alt="المعلمة نادين السيد"
               className="w-full object-cover"
-              src="/src/assets/heroImg/474619063_122197517612184467_8762378716178084788_n.jpg"
+              src={teacherImage}
             />
           </motion.div>
           <motion.div variants={sectionItemVariants} className="space-y-6">

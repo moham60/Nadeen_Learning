@@ -54,7 +54,7 @@ export default function AwardsSlider() {
             <SwiperSlide key={idx}>
               <div className="rounded-card overflow-hidden h-[500px] shadow-premium relative group">
                 <img
-                  alt={award.title}
+                  alt={`${award.badge} - ${award.title}`}
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                   src={award.image}
                   loading="lazy"
